@@ -1,0 +1,7 @@
+{
+  "retry_attempts": 3,
+  "retry_delay": 1.0,
+  "fallback_enabled": true,
+  "log_errors": true,
+  "graceful_degradation": true
+}

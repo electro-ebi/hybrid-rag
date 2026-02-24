@@ -1,0 +1,27 @@
+[
+  {
+    "id": "test_001",
+    "question": "What is binary search?",
+    "expected_keywords": [
+      "binary",
+      "search",
+      "algorithm",
+      "sorted",
+      "divide"
+    ],
+    "domain": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": "test_002",
+    "question": "Create a function to check if a number is prime",
+    "expected_keywords": [
+      "prime",
+      "divisible",
+      "modulus",
+      "algorithm"
+    ],
+    "domain": "code",
+    "difficulty": "medium"
+  }
+]

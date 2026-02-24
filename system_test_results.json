@@ -1,0 +1,23 @@
+{
+  "sparse_search": {
+    "status": "PASS",
+    "results_count": 3,
+    "details": "Found 3 results"
+  },
+  "vector_search": {
+    "status": "PARTIAL",
+    "results_count": 0,
+    "details": "Found 0 results"
+  },
+  "reranking": {
+    "status": "PASS",
+    "results_count": 3,
+    "details": "Reranked 3 chunks"
+  },
+  "document_counts": {
+    "status": "PASS",
+    "sparse_count": 1135,
+    "vector_count": 320,
+    "details": "Sparse: 1135, Vector: 320"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "system": {
+    "version": "1.0.0",
+    "environment": "production",
+    "created": "2026-02-24 09:15:23"
+  },
+  "retrieval": {
+    "default_method": "hybrid",
+    "sparse_enabled": true,
+    "dense_enabled": true,
+    "reranking_enabled": true,
+    "top_k_default": 10
+  },
+  "performance": {
+    "cache_enabled": true,
+    "cache_size": 1000,
+    "cache_ttl": 3600,
+    "batch_size": 10
+  },
+  "models": {
+    "embedding_model": "nomic-embed-text",
+    "embedding_dimension": 768,
+    "reranker_model": "BAAI/bge-reranker-base"
+  }
+}

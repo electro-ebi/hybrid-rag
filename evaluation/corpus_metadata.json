@@ -1,0 +1,116 @@
+{
+  "corpus_info": {
+    "total_papers": 13,
+    "successful_papers": 0,
+    "total_chunks": 0,
+    "creation_timestamp": "2026-02-24 08:57:22",
+    "indexing_version": "1.0"
+  },
+  "paper_details": [
+    {
+      "name": "2024.customnlp4u-1.18.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "2024.emnlp-industry.66.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "2025.acl-long.43.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "21_Entropy_Based_Dynamic_Hybri.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "2401.07883v1.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "2408.05141v3.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "2503.13514v1.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "2508.05660v1.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "2510.12323v1.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "2601.12658v2.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "V3I202.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "optimizing-rag-with-hybrid-search-and-contextual-chunking.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    },
+    {
+      "name": "preprints202504.0351.v1.pdf",
+      "status": "failed",
+      "error": {
+        "exception": "No module named 'data_layer.preprocess'"
+      }
+    }
+  ],
+  "final_counts": {
+    "sparse_documents": 320,
+    "vector_documents": 320
+  },
+  "domains_covered": [
+    "retrieval augmented generation",
+    "hybrid search systems",
+    "vector databases",
+    "cross-encoder reranking",
+    "contextual chunking",
+    "information retrieval",
+    "embedding models",
+    "natural language processing"
+  ]
+}
