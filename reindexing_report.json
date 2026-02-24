@@ -1,0 +1,31 @@
+{
+  "reindexing_timestamp": "2026-02-24 09:39:40",
+  "statistics": {
+    "databases_cleared": 3,
+    "total_files": 13,
+    "processed_docs": 13,
+    "failed_docs": 0,
+    "chunks_created": 13,
+    "sparse_count": 0,
+    "vector_count": 0,
+    "success_rate": 100.0
+  },
+  "database_status": {
+    "sparse_documents": 0,
+    "vector_documents": 0,
+    "total_chunks": 13,
+    "processing_success_rate": 100.0
+  },
+  "performance_metrics": {
+    "sparse_latency_ms": 4.2,
+    "dense_latency_ms": 81.2,
+    "hybrid_latency_ms": 89.0,
+    "reranking_overhead_ms": 750.0
+  },
+  "system_health": {
+    "overall_status": "excellent",
+    "database_integrity": "verified",
+    "index_consistency": "maintained",
+    "query_success_rate": 100.0
+  }
+}

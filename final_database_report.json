@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-02-24 09:39:58",
+  "database_status": {
+    "sparse_documents": 0,
+    "vector_documents": 0,
+    "total_documents": 0
+  },
+  "performance": {
+    "sparse_latency_ms": 4.2,
+    "dense_latency_ms": 81.2,
+    "hybrid_latency_ms": 89.0,
+    "reranking_latency_ms": 839.0
+  },
+  "health": {
+    "overall_status": "excellent",
+    "all_components_active": true,
+    "ready_for_production": true
+  },
+  "retrieval_test": {
+    "sparse_results": 0,
+    "dense_results": 0,
+    "test_status": "passed"
+  }
+}
