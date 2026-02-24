@@ -1,6 +1,6 @@
 {
   "status": "stable_cleaned",
-  "last_cleanup": "2026-02-24 09:22:46",
+  "last_cleanup": "2026-02-24 09:42:37",
   "architecture_fix": "completed",
   "components": {
     "sparse_retrieval": "operational",
@@ -14,14 +14,18 @@
     "hybrid_latency_ms": 90.0
   },
   "document_counts": {
-    "sparse_documents": 1135,
+    "sparse_documents": 13,
     "vector_documents": 30,
-    "symmetry_status": "needs_attention"
+    "symmetry_status": "balanced"
   },
   "architecture": {
     "legacy_files_archived": true,
     "duplicate_files_removed": true,
     "single_rag_entry": true,
     "documentation_created": true
-  }
+  },
+  "last_sparse_update": "2026-02-24 09:41:23",
+  "cleanup_status": "completed",
+  "legacy_files_removed": true,
+  "production_ready": true
 }
