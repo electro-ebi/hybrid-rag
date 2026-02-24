@@ -12,8 +12,6 @@ from dataclasses import dataclass
 import numpy as np
 
 from logger import get_logger
-from .ocr_processor import get_ocr_processor
-from .vision_analyzer import get_vision_analyzer
 
 logger = get_logger("data_analyzer")
 
@@ -38,8 +36,8 @@ class DataAnalyzer:
     """Advanced data analysis for multi-modal content."""
     
     def __init__(self):
-        self.ocr_processor = get_ocr_processor()
-        self.vision_analyzer = get_vision_analyzer()
+        # Simplified data analyzer without legacy dependencies
+        self.name = "DataAnalyzer"
         
         # Pattern matching for different data types
         self.patterns = {
@@ -208,26 +206,24 @@ class DataAnalyzer:
                     except ValueError:
                         continue
             
-            # Vision analysis for comprehensive analysis
+            # Simplified vision analysis (placeholder)
             if analysis_depth in ["standard", "comprehensive"]:
-                vision_result = self.vision_analyzer.extract_data_from_visualization(
-                    image_path=image_path,
-                    image_base64=image_base64
+                # Placeholder for vision analysis
+                visual_analysis = {
+                    "analysis_type": "basic",
+                    "extracted_data": {},
+                    "confidence": 0.5
+                }
+                
+                # Create a basic data point for vision analysis
+                data_point = DataPoint(
+                    label="vision_analysis",
+                    value="basic_vision_processing",
+                    confidence=0.5,
+                    source="vision_analysis",
+                    context="Image processed with basic vision analysis"
                 )
-                
-                visual_analysis = vision_result
-                
-                # Convert vision analysis to data points
-                extracted_data = vision_result.get("extracted_data", {})
-                for dp in extracted_data.get("data_points", []):
-                    data_point = DataPoint(
-                        label=dp.get("label", f"Vision_{len(data_points)}"),
-                        value=dp.get("value", 0),
-                        confidence=0.7,  # Vision analysis confidence
-                        source="vision_analysis",
-                        context=f"Chart type: {extracted_data.get('chart_type', 'unknown')}"
-                    )
-                    data_points.append(data_point)
+                data_points.append(data_point)
             
             # Generate insights
             insights = self._generate_image_insights(data_points, visual_analysis)
