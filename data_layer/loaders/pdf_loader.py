@@ -1,4 +1,4 @@
-from pypdf import PdfReader
+import PyPDF2
 
 
 def load_pdf(file_path: str) -> str:
@@ -6,11 +6,11 @@ def load_pdf(file_path: str) -> str:
     Load a PDF file and extract raw text.
     """
 
-    reader = PdfReader(file_path)
+    reader = PyPDF2.PdfReader(file_path)
     
 
     text = ""
-
+    
 
     for page in reader.pages:
         extracted = page.extract_text()
