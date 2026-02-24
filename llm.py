@@ -70,6 +70,19 @@ def call_llm(
         return f"Unexpected error: {str(e)}"
 
 
+def generate_response(
+    user_prompt: str,
+    temperature: float = 0.7,
+    system_prompt: str = SYSTEM_PROMPT,
+    task_type: str = "generation",
+    max_tokens: int = None,
+) -> str:
+    """
+    Alias for call_llm for backward compatibility.
+    """
+    return call_llm(user_prompt, temperature, system_prompt, task_type)
+
+
 def check_ollama_connectivity() -> bool:
     try:
         response = requests.get(OLLAMA_TAGS_URL, timeout=OLLAMA_TIMEOUT)
